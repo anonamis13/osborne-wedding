@@ -12,7 +12,7 @@ const appRoutes: Routes = [
 
     },
     {
-        path: 'weddingparty',
+        path: 'wedding-party',
         component: WeddingPartyComponent
     }
 ];
