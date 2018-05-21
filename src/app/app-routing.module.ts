@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { RouterOutlet } from '@angular/router';
 import { WeddingPartyComponent } from './wedding-party/wedding-party.component';
+import { RegistryComponent } from './registry/registry.component';
 
 const appRoutes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -14,6 +15,10 @@ const appRoutes: Routes = [
     {
         path: 'wedding-party',
         component: WeddingPartyComponent
+    },
+    {
+        path: 'registry',
+        component: RegistryComponent
     }
 ];
 
