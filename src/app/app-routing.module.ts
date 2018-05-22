@@ -1,7 +1,7 @@
-import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { RouterOutlet } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 import { WeddingPartyComponent } from './wedding-party/wedding-party.component';
 import { RegistryComponent } from './registry/registry.component';
 
@@ -9,7 +9,7 @@ const appRoutes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     {
         path: 'home',
-        component: HomeComponent,
+        component: HomeComponent
 
     },
     {
