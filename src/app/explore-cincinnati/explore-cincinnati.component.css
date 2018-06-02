@@ -1,6 +1,7 @@
 body {
   padding-top: 65px;
-  background-image: url("/assets/photos/Pizza_4-1.jpg");
+  margin: -200px;
+  background-image: url("/assets/photos/cincinnati-skyline_1.jpg");
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,26 +16,10 @@ body {
   color: #cccccc;
 }
 
-.h2-registry {
-  font-family: 'Amatic SC', cursive;
-  font-size: 100px;
-  color: #cccccc;
-  text-align: center;
-}
-
 #footer {
   clear: both;
   position: relative;
   z-index: 10;
   height: 3px;
   margin-top: -3px;
-}
-
-#registry-cards {
-  background: rgb(204, 204, 204);
-  /* The Fallback */
-  background: rgba(204, 204, 204, 0.7);
-  /* Desired color */
-  margin-top: 100px;
-  padding: 40px;
 }

@@ -1,0 +1,71 @@
+body {
+  padding-top: 65px;
+  background-image: url("/assets/photos/Mt_Storm_4.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  min-height: 100%;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.h2-wedding-details {
+  font-family: 'Amatic SC', cursive;
+  font-size: 100px;
+  color: #cccccc;
+  text-align: center;
+}
+
+.h3-wedding-details {
+  font-family: 'Amatic SC', cursive;
+  font-size: 80px;
+  color: #cccccc;
+  text-align: center;
+}
+
+.p-body {
+  font-size: 30px;
+  color: #cccccc;
+}
+
+#footer {
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 3px;
+  margin-top: -3px;
+}
+
+@media (min-width: 1200px) {
+  .example {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 3em;
+    -moz-column-gap: 3em;
+    column-gap: 3em;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .example {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 3em;
+    -moz-column-gap: 3em;
+    column-gap: 3em;
+  }
+}
+
+@media (max-width: 600px) {
+  .example {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 3em;
+    -moz-column-gap: 3em;
+    column-gap: 3em;
+  }
+}
