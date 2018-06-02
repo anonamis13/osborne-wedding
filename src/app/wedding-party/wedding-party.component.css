@@ -13,7 +13,8 @@ body {
 .h2-wedding-party {
   font-family: 'Amatic SC', cursive;
   font-size: 100px;
-  color: #cccccc;
+  color: black;
+  text-shadow: 2px 2px #cccccc;
   text-align: center;
 }
 

@@ -10,16 +10,37 @@ body {
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
+p {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #cccccc;
+  text-shadow: 1px 1px black;
+}
+
+img {
+  border-radius: 25px;
+}
+
+.h2-wedding-details {
+  font-family: 'Amatic SC', cursive;
+  font-size: 100px;
+  color: black;
+  text-shadow: 2px 2px #cccccc;
+  text-align: center;
+}
+
+.h3-wedding-details {
+  font-family: 'Amatic SC', cursive;
+  font-size: 80px;
+  color: #cccccc;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
 .p-body {
   font-size: 30px;
   color: #cccccc;
-}
-
-.h2-registry {
-  font-family: 'Amatic SC', cursive;
-  font-size: 100px;
-  color: #cccccc;
-  text-align: center;
 }
 
 #footer {
@@ -30,11 +51,41 @@ body {
   margin-top: -3px;
 }
 
-#registry-cards {
-  background: rgb(204, 204, 204);
-  /* The Fallback */
-  background: rgba(204, 204, 204, 0.7);
-  /* Desired color */
-  margin-top: 100px;
-  padding: 40px;
+@media (min-width: 1200px) {
+  .example {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 3em;
+    -moz-column-gap: 3em;
+    column-gap: 3em;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .example {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 3em;
+    -moz-column-gap: 3em;
+    column-gap: 3em;
+  }
+}
+
+@media (max-width: 600px) {
+  .example {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 3em;
+    -moz-column-gap: 3em;
+    column-gap: 3em;
+  }
+}
+
+.center {
+  display: block;
+  margin: auto;
+  width: 70%;
 }

@@ -10,10 +10,23 @@ body {
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
+p {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #cccccc;
+  text-shadow: 1px 1px black;
+}
+
+img {
+  border-radius: 25px;
+}
+
 .h2-wedding-details {
   font-family: 'Amatic SC', cursive;
   font-size: 100px;
-  color: #cccccc;
+  color: black;
+  text-shadow: 2px 2px #cccccc;
   text-align: center;
 }
 
@@ -22,6 +35,7 @@ body {
   font-size: 80px;
   color: #cccccc;
   text-align: center;
+  text-shadow: 2px 2px black;
 }
 
 .p-body {
@@ -39,9 +53,9 @@ body {
 
 @media (min-width: 1200px) {
   .example {
-    -webkit-column-count: 4;
-    -moz-column-count: 4;
-    column-count: 4;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
     -webkit-column-gap: 3em;
     -moz-column-gap: 3em;
     column-gap: 3em;
@@ -68,4 +82,10 @@ body {
     -moz-column-gap: 3em;
     column-gap: 3em;
   }
+}
+
+.center {
+  display: block;
+  margin: auto;
+  width: 70%;
 }

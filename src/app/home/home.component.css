@@ -53,6 +53,5 @@ body {
 }
 
 /deep/ .divider {
-  font-size: 30px;
-  color: black;
+  font-size: 20px;
 }
