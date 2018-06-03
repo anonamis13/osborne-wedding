@@ -1,6 +1,6 @@
 body {
   padding-top: 65px;
-  margin: -200px;
+  margin-top: -200px;
   background-image: url("/assets/photos/cincinnati-skyline_1.jpg");
   background-color: #cccccc;
   background-position: center;
@@ -9,6 +9,21 @@ body {
   height: 100%;
   min-height: 100%;
   font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.h2-explore {
+  font-family: 'Amatic SC', cursive;
+  font-size: 100px;
+  color: black;
+  text-shadow: 2px 2px #cccccc;
+  text-align: center;
+}
+
+.h3-explore {
+  font-family: 'Amatic SC', cursive;
+  font-size: 80px;
+  color: #cccccc;
+  text-align: center;
 }
 
 .p-body {
