@@ -38,11 +38,6 @@ img {
   text-shadow: 2px 2px black;
 }
 
-.p-body {
-  font-size: 30px;
-  color: #cccccc;
-}
-
 #footer {
   clear: both;
   position: relative;
@@ -62,7 +57,7 @@ img {
   }
 }
 
-@media (min-width: 600px) and (max-width: 1200px) {
+@media (min-width: 800px) and (max-width: 1200px) {
   .example {
     -webkit-column-count: 2;
     -moz-column-count: 2;
@@ -73,7 +68,7 @@ img {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .example {
     -webkit-column-count: 1;
     -moz-column-count: 1;

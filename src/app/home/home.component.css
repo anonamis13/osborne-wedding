@@ -10,6 +10,16 @@ body {
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
+.p-story {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #cccccc;
+  text-shadow: 1px 1px black;
+  width: 70%;
+  margin: auto;
+}
+
 .h1-home {
   font-family: 'Amatic SC', cursive;
   font-size: 200px;
