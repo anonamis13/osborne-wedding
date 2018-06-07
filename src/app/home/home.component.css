@@ -12,12 +12,17 @@ body {
 
 .p-story {
   font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 30px;
+  font-size: 22px;
   text-align: center;
-  color: #cccccc;
-  text-shadow: 1px 1px black;
+  color: black;
+  text-shadow: 1px 1px #cccccc;
+  position: relative;
   width: 70%;
   margin: auto;
+  border-radius: 25px;
+  background: rgb(204, 204, 204);
+  /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.5);
 }
 
 .h1-home {
