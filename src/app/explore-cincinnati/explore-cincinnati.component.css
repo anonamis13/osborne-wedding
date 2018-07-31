@@ -24,11 +24,57 @@ body {
   font-size: 80px;
   color: #cccccc;
   text-align: center;
+  text-shadow: 2px 2px black;
 }
 
 .p-body {
   font-size: 30px;
   color: #cccccc;
+}
+
+.p-blurb {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px #cccccc;
+  position: relative;
+  width: 50%;
+  margin: auto;
+  border-radius: 25px;
+  background: rgb(204, 204, 204);
+  /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.5);
+}
+
+div.gallery {
+  position: relative;
+  margin: 20px;
+  margin-left: 50px;
+  display: inline-block;
+  width: 20%;
+  background: rgb(204, 204, 204);
+  /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.7);
+  border-radius: 25px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+div.desc {
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 30px;
+  color: black;
+  text-shadow: 1px 1px #cccccc;
 }
 
 #footer {
