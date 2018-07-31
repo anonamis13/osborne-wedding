@@ -1,6 +1,6 @@
 body {
   padding-top: 65px;
-  background-image: url("/assets/photos/97007.jpg");
+  background-image: url("/assets/photos/Pizza_10-1.jpg");
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,7 +23,6 @@ body {
   font-size: 80px;
   color: #cccccc;
   text-align: center;
-  text-shadow: 2px 2px black;
 }
 
 .p-body {
@@ -40,50 +39,32 @@ body {
 /* Create four equal columns that sits next to each other */
 
 .column {
-  display: inline-block;
-  float: none;
-  flex: 100%;
-  max-width: 100%;
+  flex: 33%;
+  max-width: 33%;
   padding: 0 4px;
-  text-align: center;
 }
 
 .column img {
-  width: 14%;
-  margin: 8px 5px 0px 5px;
+  width: 33%;
+  margin-top: 8px;
   vertical-align: middle;
-  border-radius: 10px;
 }
 
-@media screen and (max-width: 600px) {
-  .column img {
-    width: 42%;
-    margin: 8px 5px 0px 5px;
-    vertical-align: middle;
-  }
-}
-
-@media screen and (max-width: 800px) and (min-width: 601px) {
-  .column img {
-    width: 27%;
-    margin: 8px 5px 0px 5px;
-    vertical-align: middle;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .column imgKids {
-    width: 50%;
-    margin: 8px 5px 0px 5px;
-    vertical-align: middle;
-  }
-}
+/* Responsive layout - makes a two column-layout instead of four columns */
 
 @media screen and (max-width: 800px) {
-  .column imgKids {
-    width: 50%;
-    margin: 8px 5px 0px 5px;
-    vertical-align: middle;
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
   }
 }
 
