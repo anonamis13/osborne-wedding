@@ -25,6 +25,18 @@ body {
   background: rgba(204, 204, 204, 0.5);
 }
 
+.p-story2 {
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px #cccccc;
+  position: relative;
+  width: 70%;
+  margin: auto;
+}
+
 .h1-home {
   font-family: 'Amatic SC', cursive;
   font-size: 200px;
