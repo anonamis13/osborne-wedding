@@ -46,7 +46,7 @@ img {
   margin-top: -3px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .example {
     -webkit-column-count: 3;
     -moz-column-count: 3;
@@ -57,7 +57,7 @@ img {
   }
 }
 
-@media (min-width: 800px) and (max-width: 1200px) {
+@media (min-width: 800px) and (max-width: 1400px) {
   .example {
     -webkit-column-count: 1;
     -moz-column-count: 1;

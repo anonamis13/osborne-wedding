@@ -19,6 +19,16 @@ body {
   text-align: center;
 }
 
+@media (max-width: 600px) {
+  .h2-explore {
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+    color: black;
+    text-shadow: 2px 2px #cccccc;
+    text-align: center;
+  }
+}
+
 .h3-explore {
   font-family: 'Amatic SC', cursive;
   font-size: 80px;
@@ -59,6 +69,66 @@ div.gallery {
   border-radius: 25px;
 }
 
+@media (min-width: 1000px) and (max-width: 1450px) {
+  div.gallery {
+    font-size: 60px;
+    position: relative;
+    margin: 20px;
+    margin-left: 150px;
+    display: inline-block;
+    width: 30%;
+    background: rgb(204, 204, 204);
+    /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.7);
+    border-radius: 25px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  div.gallery {
+    font-size: 60px;
+    position: relative;
+    margin: 20px;
+    margin-left: 100px;
+    display: inline-block;
+    width: 30%;
+    background: rgb(204, 204, 204);
+    /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.7);
+    border-radius: 25px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+  div.gallery {
+    font-size: 60px;
+    position: relative;
+    margin: 20px;
+    margin-left: 80px;
+    display: inline-block;
+    width: 30%;
+    background: rgb(204, 204, 204);
+    /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.7);
+    border-radius: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  div.gallery {
+    font-size: 20px;
+    position: relative;
+    margin: 20px;
+    margin-left: 40px;
+    display: inline-block;
+    width: 30%;
+    background: rgb(204, 204, 204);
+    /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.7);
+    border-radius: 25px;
+  }
+}
+
 div.gallery:hover {
   border: 1px solid #777;
 }
@@ -75,6 +145,16 @@ div.desc {
   font-size: 30px;
   color: black;
   text-shadow: 1px 1px #cccccc;
+}
+
+@media (max-width: 600px) {
+  div.desc {
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-shadow: 1px 1px #cccccc;
+  }
 }
 
 #footer {
